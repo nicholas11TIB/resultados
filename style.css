@@ -58,6 +58,10 @@ body{
     line-height: 7.2rem;
 }
 
+.Resumo > div strong span{
+    opacity: 0.5;
+}
+
 .resultado div strong:nth-of-type(2){
     color: var(--light-blue);
 
@@ -94,10 +98,15 @@ body{
     margin-bottom: 1.6rem;
 }
 
-.resumo  > div div {
+.Resumo  > div div {
     display: flex;
     align-items: center;
     gap:  1.2rem;
+}
+
+.Resumo > div strong{
+    color: var(--dark-navy);
+
 }
 
 
@@ -119,4 +128,17 @@ body{
 .resumo_visual{
     background: var(--visual-bg) var(--resumo-div-bg);
     color: var(--visual-bg);
+}
+
+.Resumo button {
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    
 }
